@@ -1,0 +1,41 @@
+@media all and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  body{
+   background-image:url("https://cdn.shopify.com/s/files/1/0093/6227/6415/products/product-01_d81479b5-8b2c-4e1c-8a3b-26e94c72078f_960x.png?v=1609339317");
+    color :orangered;
+  }
+  .containerid{
+    display:flex;
+    flex-direction:column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+  }
+  .textinput{
+    align-items:center;
+    border:3px solid orangered;
+    border-radius:50px;
+  }
+  .button{
+    margin-top:10px;
+    border-radius:50px;
+    border:4px solid orangered;
+  }
+  .resultid{
+   color:black;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+  }
+  p{
+    font-weight:bold;
+    font-size: 30px;
+  }
